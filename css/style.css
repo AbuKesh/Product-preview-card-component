@@ -1,0 +1,106 @@
+
+body {
+    margin: 11%;
+    margin-right: 22%;
+    padding: 0%;
+    /* background-color: black; */
+    background-color: hsl(30, 38%, 92%);
+    text-align: center;
+}
+
+p {
+    font-family: "Montserrat";
+    color: #6C7289;
+    font-weight: 500;
+    padding-right: 5%;
+}
+
+button {
+    display: block;
+    cursor: pointer;
+}
+
+.container {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.con1 {
+    text-align: end;
+}
+
+.con2 {
+    background-color: #fff;
+    text-align: left;
+    padding: 2% 2% 3% 2%;
+    margin-left: -0.3%;
+    width: 23%;
+    border-top-right-radius: 3%;
+    border-end-end-radius: 3%;
+}
+
+.image {
+    width: 52%;
+    text-align: right;
+    border-top-left-radius: 3%;
+    border-end-start-radius: 3%;
+}
+
+.h11 {
+    font-weight: 700;
+    font-family: "Fraunces";
+    color: #1C232B;
+    padding-right: 15%;
+}
+
+.btn {
+    background: #3C8067;
+    background-image: -webkit-linear-gradient(top, #3C8067, #3C8067);
+    background-image: -moz-linear-gradient(top, #3C8067, #3C8067);
+    background-image: -ms-linear-gradient(top, #3C8067, #3C8067);
+    background-image: -o-linear-gradient(top, #3C8067, #3C8067);
+    background-image: linear-gradient(to bottom, #3C8067, #3C8067);
+    -webkit-border-radius: 8;
+    -moz-border-radius: 8;
+    border-radius: 8px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 16px;
+    padding: 6% 30% 6% 30%;
+    text-decoration: none;
+    border: none;
+  }
+  
+  .btn:hover {
+    background: #064D48;
+    background-image: -webkit-linear-gradient(top, #064D48, #064D48);
+    background-image: -moz-linear-gradient(top, #064D48, #064D48);
+    background-image: -ms-linear-gradient(top, #064D48, #064D48);
+    background-image: -o-linear-gradient(top, #064D48, #064D48);
+    background-image: linear-gradient(to bottom, #064D48, #064D48);
+    text-decoration: none;
+  }
+
+#num {
+    display: inline-block;
+    font-family: "Fraunces";
+    color: #3C8067;
+    margin-top: 2%;
+}
+
+span {
+    font-family: "Montserrat";
+    color: #6C7289;
+    padding-left: 10%;
+    text-decoration: line-through;
+}
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-left: 22%;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
